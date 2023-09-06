@@ -1,0 +1,59 @@
+@import url(../styles/interiors.css);
+@import url(../styles/description.css);
+@import url(../styles/projects.css);
+@import url(../styles/services.css);
+@import url(../styles/nav.css);
+@import url(../styles/sample-project.css);
+@import url(../styles/contacts.css);
+@import url(../styles/footer.css);
+
+* {
+    letter-spacing: -0.03em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: 'manrope';
+    font-weight: 400;
+    color: #121212;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+.title {
+    font-size: 18px;
+    line-height: 24.59px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+@media (max-width: 1199px) {
+    .container {
+        width: 100%;
+        padding: 0 15px
+    }
+
+    section {
+        margin-bottom: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    section {
+        margin-bottom: 80px;
+    }
+}

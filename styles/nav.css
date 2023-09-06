@@ -1,0 +1,22 @@
+.nav {
+    margin-bottom: 0px;
+    padding-top: 33px;
+    padding-bottom: 70px;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.nav-menu__link {
+    margin-left: 60px;
+    font-size: 18px;
+    color: #121212;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.nav-menu__link:hover {
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}

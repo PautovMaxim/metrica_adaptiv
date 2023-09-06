@@ -1,0 +1,19 @@
+.sample-project {
+    position: relative;
+    min-width: 1400px;
+    height: 717px;
+    background-image: url(../resources/full.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 20% 80%;
+}
+
+.sample-project__image-text {
+    position: absolute;
+    bottom: 60px;
+    width: 443px;
+    height: 82px;
+    font-size: 30px;
+    line-height: normal;
+    color: #ffffff;
+}

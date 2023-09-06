@@ -1,0 +1,29 @@
+.services {
+    margin: 0px;
+    color: #fff;
+    background-color: #121212;
+}
+
+.services__title {
+    margin-bottom: 34px;
+    padding-top: 151px;
+}
+
+.services__information-block {
+    margin-bottom: 60px;
+}
+
+.services__information-block:nth-last-child(1) {
+    padding-bottom: 150px;
+    margin-bottom: 0px;
+}
+
+.services__image-block {
+    width: 1150px;
+    padding-bottom: 15px;
+}
+
+.services__block-name {
+    line-height: 39px;
+    font-size: 30px;
+}
