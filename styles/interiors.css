@@ -47,7 +47,7 @@
 @media (max-width: 767px) {
     .interiors__title {
             margin-bottom: 25px;
-            width: 100%;
+            max-width: 330px;
             font-size: 30px;
             line-height: 31.621px;
             letter-spacing: -0.9px;
