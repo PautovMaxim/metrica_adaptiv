@@ -28,15 +28,15 @@
 }
 
 .services-wrapper__price {
-    padding: 5px 22px 5px 20px;
     position: absolute;
     top: 31px;
     left: 30px;
+    padding: 5px 22px 5px 20px;
+    border-radius: 5px;
     font-size: 22px;
     line-height: normal;
     letter-spacing: -0.66px;
-    border-radius: 5px;
-    background: #AD1818;
+    background-color: #AD1818;
 }
 
 .services-wrapper__title {
@@ -49,13 +49,14 @@
 .services__btn {
     margin-top: 104px;
     margin-bottom: 150px;
+    padding: 0px;
     width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
     font-size: 30px;
     line-height: 153px;
     letter-spacing: -0.9px;
-    border-radius: 5px;
-    cursor: pointer;
-    border: none;
     color: #fff;
     background-color: #AD1818;
 }
@@ -70,9 +71,9 @@
     }
 
     .services-wrapper__price {
-        padding: 7px 26px 6px 27px;
         top: 32px;
         left: 32px;
+        padding: 7px 26px 6px 27px;
         font-size: 20px;
     }
 
@@ -89,14 +90,6 @@
 }
 
 @media (max-width: 767px) {
-    .services__title {
-        padding-top: 80px;
-        margin-bottom: 20px;
-        font-size: 14px;
-        line-height: normal;
-        letter-spacing: -0.42px;
-    }
-
     .services-wrapper {
         row-gap: 60px;
     }
@@ -110,9 +103,9 @@
     }
 
     .services-wrapper__price {
-        padding: 5px 23px 6px 24px;
-        left: 24px;
         top: 23px;
+        left: 24px;
+        padding: 5px 23px 6px 24px;
         font-size: 14px;
         line-height: normal;
         letter-spacing: -0.42px;

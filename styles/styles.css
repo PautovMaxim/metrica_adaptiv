@@ -2,6 +2,7 @@
 @import url(../styles/description.css);
 @import url(../styles/projects.css);
 @import url(../styles/services.css);
+@import url(../styles/reviews.css);
 @import url(../styles/nav.css);
 @import url(../styles/sample-project.css);
 @import url(../styles/contacts.css);
@@ -27,6 +28,7 @@ section {
 }
 
 .title {
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: 24.59px;
 }
@@ -37,23 +39,32 @@ section {
 }
 
 @media (max-width: 1199px) {
+    section {
+        margin-bottom: 120px;
+    }
+    
     .container {
         width: 100%;
         padding: 0 15px
     }
 
-    section {
-        margin-bottom: 120px;
-    }
+    
 }
 
 @media (max-width: 767px) {
+    section {
+        margin-bottom: 120px;
+    }
+    
     .container {
         width: 100%;
         padding: 0 12px;
     }
 
-    section {
-        margin-bottom: 80px;
+    .title {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: normal;
+        letter-spacing: -0.42px;
     }
 }

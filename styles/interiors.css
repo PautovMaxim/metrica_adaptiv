@@ -7,15 +7,15 @@
 
 .interiors__image {
     position: relative;
-    background-image: url(../resources/interiors.jpg);
     width: 1150px;
     height: 500px;
+    background-image: url(../resources/interiors.jpg);
 }
 
 .interiors__image-text {
     position: absolute;
-    bottom: 40px;
     left: 40px;
+    bottom: 40px;
     width: 430px;
     font-size: 20px;
     line-height: 27.32px;
@@ -63,8 +63,8 @@
     
         .interiors__image-text {
             width: 312px;
-            bottom: 15px;
             left: 15px;
+            bottom: 15px;
             font-size: 16px;
             line-height: normal;
             letter-spacing: -0.48px;
