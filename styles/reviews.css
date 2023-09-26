@@ -1,5 +1,4 @@
-.reviews__title {
-    margin-bottom: 30px;
+.reviews {
     padding-top: 150px;
 }
 
@@ -15,7 +14,7 @@
     width: calc(50% - 24.5px);
 }
 
-.reviews-wrapper__block_width {
+.reviews-wrapper__block:last-child:nth-child(2n+1) {
     width: 861px;
 }
 
@@ -45,7 +44,7 @@
         width: calc(50% - 5px);
     }
 
-    .reviews-wrapper__block_width {
+    .reviews-wrapper__block:last-child:nth-child(2n+1) {
         width: 694px;
     }
 
@@ -65,8 +64,6 @@
     .reviews__title {
         margin-bottom: 22px;
         padding-top: 80px;
-        font-size: 14px;
-        letter-spacing: -0.42px;
     }
 
     .reviews-wrapper {
@@ -78,7 +75,7 @@
         width: 100%;
     }
 
-    .reviews-wrapper__block_width {
+    .reviews-wrapper__block:last-child:nth-child(2n+1) {
         width: 100%;
     }
 

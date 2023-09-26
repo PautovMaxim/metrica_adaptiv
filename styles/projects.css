@@ -1,3 +1,5 @@
+
+
 .projects__information-block {
     margin-bottom: 90px;
     height: 548px;
@@ -35,6 +37,7 @@
     line-height: 40.98px;
     color: #ad1818;
     background-color: #fff;
+    transition: 0.4s;
 }
 
 .projects__watch-projects-btn:hover {
