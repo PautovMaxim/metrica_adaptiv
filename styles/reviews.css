@@ -31,11 +31,11 @@
     letter-spacing: -0.66px;
 }
 
-@media (max-width: 1199px) {
-    .reviews__title {
+@media (max-width: 1199px) {  
+    .reviews {
         padding-top: 120px;
     }
-
+    
     .reviews-wrapper {
         row-gap: 80px;
     }
@@ -61,9 +61,12 @@
 }
 
 @media (max-width: 767px) {
+    .reviews {
+        padding-top: 80px;
+    }
+    
     .reviews__title {
         margin-bottom: 22px;
-        padding-top: 80px;
     }
 
     .reviews-wrapper {

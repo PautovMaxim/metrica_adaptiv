@@ -56,10 +56,6 @@
 }
 
 @media (max-width: 767px) {
-    .projects {
-        margin-bottom: 80px;
-    }
-    
     .projects__information-block {
         margin-bottom: 49px;
         height: auto;

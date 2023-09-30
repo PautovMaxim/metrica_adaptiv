@@ -1,7 +1,5 @@
 .services {
     padding-top: 151px;
-    padding-bottom: 150px;
-    margin: 0px;
     color: #fff;
     background-color: #121212;
 }
@@ -62,6 +60,10 @@
 }
 
 @media (max-width: 1199px) {
+    .services-wrapper {
+        margin-bottom: 80px;
+    }
+
     .services-wrapper__box {
         width: calc(50% - 5px);
     }
@@ -82,19 +84,15 @@
         font-size: 25px;
         letter-spacing: -0.75px;
     }
-
-    .services__btn {
-        margin-top: 80px;
-        margin-bottom: 120px;
-    }
 }
 
 @media (max-width: 767px) {
-    .services__title {
+    .services {
         padding-top: 80px;
     }
 
     .services-wrapper {
+        margin-bottom: 60px;
         row-gap: 60px;
     }
 
@@ -122,8 +120,6 @@
     }
 
     .services__btn {
-        margin-top: 60px;
-        margin-bottom: 80px;
         font-size: 22px;
         line-height: 100px;
         letter-spacing: -0.66px;
