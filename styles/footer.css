@@ -22,9 +22,9 @@
     font-size: 18px;
     line-height: normal;
     letter-spacing: -0.54px;
+    transition: 0.3s;
     color: #fff;
     text-decoration: none;
-    transition: 0.3s;
 }
 
 .nav__link:hover {

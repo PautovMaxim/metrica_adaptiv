@@ -21,7 +21,7 @@
     width: calc(50% - 5.5px);
 }
 
-.services__wrapper__box-image {
+.services-wrapper__box-image {
     width: 100%;
     height: 390px;
     object-fit: cover;
@@ -68,7 +68,7 @@
         width: calc(50% - 5px);
     }
 
-    .services__wrapper__box-image {
+    .services-wrapper__box-image {
         height: 315px;
     }
 
@@ -100,7 +100,7 @@
         width: 100%;
     }
 
-    .services__wrapper__box-image {
+    .services-wrapper__box-image {
         height: 240px;
     }
 
