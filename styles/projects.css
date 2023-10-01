@@ -26,7 +26,7 @@
     text-decoration: none;
 }
 
-.projects__watch-projects-btn {
+.projects__btn {
     display: block;
     border-radius: 5px;
     border: 1px solid #ad1818;
@@ -39,7 +39,7 @@
     cursor: pointer;
 }
 
-.projects__watch-projects-btn:hover {
+.projects__btn:hover {
     color: #fff;
     background-color: #ad1818;
 }

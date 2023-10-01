@@ -11,7 +11,7 @@
 
 
 .reviews-wrapper__block {
-    width: calc(50% - 24.5px);
+    width: calc(50% - 42.5px);
 }
 
 .reviews-wrapper__block:last-child:nth-child(2n+1) {
@@ -29,6 +29,10 @@
     font-size: 22px;
     line-height: normal;
     letter-spacing: -0.66px;
+}
+
+.reviews-wrapper__block-text_padding {
+    padding-bottom: 30px;
 }
 
 @media (max-width: 1199px) {  
@@ -57,6 +61,14 @@
     .reviews-wrapper__block-text {
         font-size: 20px;
         letter-spacing: -0.6px;
+    }
+
+    .reviews-wrapper__block-text_padding {
+        padding-bottom: 27px;
+    }
+
+    .reviews-wrapper__block-text_padding:last-child {
+        padding-bottom: 0px;
     }
 }
 
@@ -91,5 +103,13 @@
     .reviews-wrapper__block-text {
         font-size: 16px;
         letter-spacing: -0.48px;
+    }
+
+    .reviews-wrapper__block-text_padding {
+        padding-bottom: 22px;
+    }
+
+    .reviews-wrapper__block-text_padding:last-child {
+        padding-bottom: 0px;
     }
 }

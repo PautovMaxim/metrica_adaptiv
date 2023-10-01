@@ -77,15 +77,15 @@
                         <li class="projects__information-block">
                             <picture>
                                 <source
-                                    srcset="resources/project1_tablet.png"
+                                    srcset="./resources/project1_tablet.png"
                                     media="(max-width: 1199px)"
                                 />
                                 <source
-                                    srcset="resources/project1_mobile.png"
+                                    srcset="./resources/project1_mobile.png"
                                     media="(max-width: 767px)"
                                 />
                                 <img
-                                    src="resources/project1.png"
+                                    src="./resources/project1.png"
                                     alt="красивый зал"
                                     class="projects__image-block"
                                 />
@@ -99,15 +99,15 @@
                         <li class="projects__information-block">
                             <picture>
                                 <source
-                                    srcset="resources/project2_tablet.png"
+                                    srcset="./resources/project2_tablet.png"
                                     media="(max-width: 1199px)"
                                 />
                                 <source
-                                    srcset="resources/project2_mobile.png"
+                                    srcset="./resources/project2_mobile.png"
                                     media="(max-width: 767px)"
                                 />
                                 <img
-                                    src="resources/project2.png"
+                                    src="./resources/project2.png"
                                     alt="красивая гостиная"
                                     class="projects__image-block"
                                 />
@@ -121,15 +121,15 @@
                         <li class="projects__information-block">
                             <picture>
                                 <source
-                                    srcset="resources/project3_tablet.png"
+                                    srcset="./resources/project3_tablet.png"
                                     media="(max-width: 1199px)"
                                 />
                                 <source
-                                    srcset="resources/project3_mobile.png"
+                                    srcset="./resources/project3_mobile.png"
                                     media="(max-width: 767px)"
                                 />
                                 <img
-                                    src="resources/project3.png"
+                                    src="./resources/project3.png"
                                     alt="красивая столовая"
                                     class="projects__image-block"
                                 />
@@ -141,9 +141,7 @@
                         </li>
                     </ul>
 
-                    <a class="projects__watch-projects-btn">
-                        Смотреть все проекты
-                    </a>
+                    <a class="projects__btn"> Смотреть все проекты </a>
                 </div>
             </section>
 
@@ -154,7 +152,7 @@
                     <ul class="services-wrapper">
                         <li class="services-wrapper__box">
                             <img
-                                src="resources/services1.jpg"
+                                src="./resources/services1.jpg"
                                 alt="#"
                                 class="services-wrapper__box-image"
                             />
@@ -166,7 +164,7 @@
 
                         <li class="services-wrapper__box">
                             <img
-                                src="resources/services2.jpg"
+                                src="./resources/services2.jpg"
                                 alt="#"
                                 class="services-wrapper__box-image"
                             />
@@ -178,7 +176,7 @@
 
                         <li class="services-wrapper__box">
                             <img
-                                src="resources/services3.jpg"
+                                src="./resources/services3.jpg"
                                 alt="#"
                                 class="services-wrapper__box-image"
                             />
@@ -192,7 +190,7 @@
 
                         <li class="services-wrapper__box">
                             <img
-                                src="resources/services4.jpg"
+                                src="./resources/services4.jpg"
                                 alt="#"
                                 class="services-wrapper__box-image"
                             />
@@ -218,7 +216,9 @@
                             <h3 class="reviews-wrapper__block-title">
                                 Ксения, проект 65 кв.м.
                             </h3>
-                            <p class="reviews-wrapper__block-text">
+                            <p
+                                class="reviews-wrapper__block-text reviews-wrapper__block-text_padding"
+                            >
                                 Хочу искренне поблагодарить Вас за работу,
                                 проделанную на высоком уровне! Нам с мужем было
                                 очень приятно с Вами работать! Спасибо за Ваше
@@ -226,9 +226,13 @@
                                 клиентов и выполнять работу, которая превосходит
                                 все ожидания! Мы даже не надеялись, что на 34
                                 кв.м. кто-то сможет нам грамотно разместить все,
-                                что мы хотим и даже больше! <br />
-                                <br />Вам удалось это просто превосходно! Нам
-                                лишь осталось воплотить красоту, которую Вы нам
+                                что мы хотим и даже больше!
+                            </p>
+                            <p
+                                class="reviews-wrapper__block-text reviews-wrapper__block-text_padding"
+                            >
+                                Вам удалось это просто превосходно! Нам лишь
+                                осталось воплотить красоту, которую Вы нам
                                 создали в жизнь и поделиться с Вами результатом!
                             </p>
                         </li>
@@ -237,7 +241,9 @@
                             <h3 class="reviews-wrapper__block-title">
                                 Регина, проект 89 кв.м.
                             </h3>
-                            <p class="reviews-wrapper__block-text">
+                            <p
+                                class="reviews-wrapper__block-text reviews-wrapper__block-text_padding"
+                            >
                                 Спасибо большое за такой классный проект! Все
                                 стильно, круто, продумано! Очень приятно было с
                                 вами работать! Спасибо, что терпели наши «хочу
@@ -245,8 +251,8 @@
                                 ремонта. Здорово, что мы нашли такого
                                 основательного, ответственного и внимательного к
                                 деталям дизайнера!
-                                <br />
-                                <br />
+                            </p>
+                            <p class="reviews-wrapper__block-text">
                                 Хочется скорее реализовать проект и наслаждаться
                                 современной, функциональной и красивой
                                 квартирой! Будем рекомендовать Вас всем друзьям
@@ -258,7 +264,9 @@
                             <h3 class="reviews-wrapper__block-title">
                                 Яна, проект 120 кв.м.
                             </h3>
-                            <p class="reviews-wrapper__block-text">
+                            <p
+                                class="reviews-wrapper__block-text reviews-wrapper__block-text_padding"
+                            >
                                 Хотелось бы сказать большое спасибо за
                                 проделанную работу! В задачу Марины входила
                                 разработка дизайн-проекта в минимальные сроки, и
@@ -267,8 +275,9 @@
                                 напрасны: все вопросы решались оперативно,
                                 всегда предлагалось несколько вариантов решения,
                                 а также предоставлялись комментарии, какой
-                                способ решения будет более подходящим. <br />
-                                <br />
+                                способ решения будет более подходящим.
+                            </p>
+                            <p class="reviews-wrapper__block-text">
                                 В итоге проект был сдан в оговоренный срок, и
                                 мне просто не терпится приступить к его
                                 реализации! Проект получился очень стильным и
@@ -290,7 +299,12 @@
 
                     <div class="gallery__slides">
                         <div class="gallery__slide gallery__slide_active">
-                            <div class="gallery__box gallery__box_one">
+                            <div class="gallery__box">
+                                <img
+                                    src="./resources/full-one.jpg"
+                                    alt="#"
+                                    class="gallery__background"
+                                />
                                 <div class="container">
                                     <h3 class="gallery__box-title">
                                         Проект Двухкомнтаной квартиры в ЖК
@@ -300,7 +314,12 @@
                             </div>
                         </div>
                         <div class="gallery__slide">
-                            <div class="gallery__box gallery__box_two">
+                            <div class="gallery__box">
+                                <img
+                                    src="./resources/full-two.jpg"
+                                    alt="#"
+                                    class="gallery__background"
+                                />
                                 <div class="container">
                                     <h3
                                         class="gallery__box-title gallery__box-title_bottom"
@@ -311,7 +330,12 @@
                             </div>
                         </div>
                         <div class="gallery__slide">
-                            <div class="gallery__box gallery__box_three">
+                            <div class="gallery__box">
+                                <img
+                                    src="./resources/full-three.jpg"
+                                    alt="#"
+                                    class="gallery__background"
+                                />
                                 <div class="container">
                                     <h3 class="gallery__box-title">
                                         Визуализация кухни-гостиной в частном
@@ -321,7 +345,12 @@
                             </div>
                         </div>
                         <div class="gallery__slide">
-                            <div class="gallery__box gallery__box_four">
+                            <div class="gallery__box">
+                                <img
+                                    src="./resources/full-four.jpg"
+                                    alt="#"
+                                    class="gallery__background"
+                                />
                                 <div class="container">
                                     <h3 class="gallery__box-title">
                                         Проект кухни в скандинавском стиле для

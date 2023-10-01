@@ -42,6 +42,12 @@
     height: 100%;
 }
 
+.gallery__background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .gallery__box-title {
     position: absolute;
     bottom: 60px;
@@ -54,34 +60,6 @@
 
 .gallery__box-title_bottom {
     bottom: 101px;
-}
-
-.gallery__box_one {
-    background-image: url(../resources/full-one.jpg);
-    background-position: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.gallery__box_two {
-    background-image: url(../resources/full-two.jpg);
-    background-position: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.gallery__box_three {
-    background-image: url(../resources/full-three.jpg);
-    background-position: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.gallery__box_four {
-    background-image: url(../resources/full-four.jpg);
-    background-position: 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .gallery__controls-wrapper {
