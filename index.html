@@ -17,25 +17,29 @@
         <link rel="stylesheet" href="styles/styles.css" />
     </head>
     <body>
-        <!--
-        <header class="nav">
+        <header class="header">
             <div class="container">
-                <a class="nav__logo-link" href="/">
-                    <img
-                        class="nav__logo"
-                        src="resources/metrika-logo.png"
-                        alt="логотип метрика"
-                    />
-                </a>
-                <div class="nav-menu">
-                    <a href="#description" class="nav-menu__link">О НАС</a>
-                    <a href="#projects" class="nav-menu__link">ПРОЕКТЫ</a>
-                    <a href="#services" class="nav-menu__link">УСЛУГИ</a>
-                    <a href="#contacts" class="nav-menu__link">КОНТАКТЫ</a>
+                <div class="header__inner">
+                    <a href="" class="header__logo">
+                        <picture>
+                            <source
+                                media="(max-width: 767px)"
+                                srcset="./resources/metrika-logo_mobile.png"
+                            />
+                            <img src="./resources/metrika-logo.png" alt="" />
+                        </picture>
+                    </a>
+                    <nav class="header__nav">
+                        <a class="header__nav-link">О НАС</a>
+                        <a class="header__nav-link">ПРОЕКТЫ</a>
+                        <a class="header__nav-link">УСЛУГИ</a>
+                        <a class="header__nav-link">КОНТАКТЫ</a>
+                    </nav>
+
+                    <div class="js-burger-btn burger-btn"></div>
                 </div>
             </div>
         </header>
-        -->
 
         <main>
             <section class="interiors">
@@ -455,6 +459,35 @@
             </div>
         </footer>
 
+        <div class="js-burger burger">
+            <div class="js-burger__content burger__content">
+                <img
+                    class="burger__logo"
+                    src="./resources/metrika-logo.png"
+                    alt=""
+                />
+
+                <nav class="burger__nav">
+                    <a class="burger__nav-link">О НАС</a>
+                    <a class="burger__nav-link">ПРОЕКТЫ</a>
+                    <a class="burger__nav-link">УСЛУГИ</a>
+                    <a class="burger__nav-link">КОНТАКТЫ</a>
+                </nav>
+                <div class="burger-contacts">
+                    <h3 class="burger-contacts__title">Для связи:</h3>
+                    <a
+                        class="burger-contacts__link"
+                        href="mailto:hello@mail.com"
+                        >hello@mail.com</a
+                    >
+                    <a class="burger-contacts__link" href="tel:++79358954535"
+                        >+7 935 895-45-35</a
+                    >
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts/burger.js"></script>
         <script src="scripts/popup.js"></script>
         <script src="scripts/gallery.js"></script>
     </body>
