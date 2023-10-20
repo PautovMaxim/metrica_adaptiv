@@ -66,6 +66,7 @@
 .burger__content {
     position: relative;
     padding-left: 30px;
+    overflow-y: auto;
     width: 274px;
     background-color: #fff;
 }
