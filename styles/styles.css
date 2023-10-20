@@ -1,4 +1,4 @@
-@import url(../styles/header.css);
+@import url(../styles/header.css); 
 @import url(../styles/interiors.css);
 @import url(../styles/description.css);
 @import url(../styles/projects.css);
@@ -32,6 +32,10 @@ h2 {
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 24.59px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
